@@ -1,154 +1,104 @@
 chunker,model,filters,retrieval,qid,type,correct,top_doc,why,candidates
-fixed_256,small,full,keyword,Q01,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,small,full,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,small,full,keyword,Q05,type_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,keyword,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_256,small,full,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f256-0)",1
-fixed_256,small,full,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,keyword,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),2
-fixed_256,small,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,small,full,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,small,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_256,small,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f256-0)",1
-fixed_256,small,full,vector,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),2
-fixed_256,small,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,small,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,small,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_256,small,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f256-0)",1
-fixed_256,small,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,2
-fixed_256,small,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),2
-fixed_256,large,full,keyword,Q01,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,large,full,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,large,full,keyword,Q05,type_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,keyword,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_256,large,full,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f256-0)",1
-fixed_256,large,full,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,keyword,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),2
-fixed_256,large,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,large,full,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,large,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_256,large,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f256-0)",1
-fixed_256,large,full,vector,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.021 (cut 0.250),2
-fixed_256,large,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,large,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_256,large,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_256,large,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f256-0)",1
-fixed_256,large,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,2
-fixed_256,large,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.011 (cut 0.250),2
-fixed_512,small,full,keyword,Q01,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,small,full,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,small,full,keyword,Q05,type_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,keyword,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_512,small,full,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f512-0)",1
-fixed_512,small,full,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,keyword,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),1
-fixed_512,small,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,small,full,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,small,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_512,small,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f512-0)",1
-fixed_512,small,full,vector,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),1
-fixed_512,small,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,small,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,small,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_512,small,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f512-0)",1
-fixed_512,small,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,1
-fixed_512,small,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),1
-fixed_512,large,full,keyword,Q01,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,large,full,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,large,full,keyword,Q05,type_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,keyword,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_512,large,full,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f512-0)",1
-fixed_512,large,full,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,keyword,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),1
-fixed_512,large,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,large,full,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,large,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_512,large,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f512-0)",1
-fixed_512,large,full,vector,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.021 (cut 0.250),1
-fixed_512,large,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,large,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,1
-fixed_512,large,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,1
-fixed_512,large,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#f512-0)",1
-fixed_512,large,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,1
-fixed_512,large,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.011 (cut 0.250),1
-semantic,small,full,keyword,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
-semantic,small,full,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
-semantic,small,full,keyword,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,keyword,Q06,historic,True,POL-MOT-UK-2025,ok,3
-semantic,small,full,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-0)",3
-semantic,small,full,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,keyword,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),5
-semantic,small,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
-semantic,small,full,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
-semantic,small,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,3
-semantic,small,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-0)",3
-semantic,small,full,vector,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),5
-semantic,small,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
-semantic,small,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
-semantic,small,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,3
-semantic,small,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-0)",3
-semantic,small,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
-semantic,small,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),5
+semantic,large,none,keyword,Q01,version_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,45
+semantic,large,none,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,45
+semantic,large,none,keyword,Q03,jurisdiction_trap,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,45
+semantic,large,none,keyword,Q04,jurisdiction_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,45
+semantic,large,none,keyword,Q05,type_trap,False,PRC-CLM-IE-2026,wrong doc: PRC-CLM-IE-2026,45
+semantic,large,none,keyword,Q06,historic,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,45
+semantic,large,none,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,45
+semantic,large,none,keyword,Q08,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,45
+semantic,large,none,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,45
+semantic,large,none,keyword,Q10,negative,True,-,no candidates,45
+semantic,large,none,vector,Q01,version_trap,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,45
+semantic,large,none,vector,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,45
+semantic,large,none,vector,Q03,jurisdiction_trap,False,POL-MOT-EU-2026,wrong doc: POL-MOT-EU-2026,45
+semantic,large,none,vector,Q04,jurisdiction_trap,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,45
+semantic,large,none,vector,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,45
+semantic,large,none,vector,Q06,historic,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,45
+semantic,large,none,vector,Q07,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,45
+semantic,large,none,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",45
+semantic,large,none,vector,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,45
+semantic,large,none,vector,Q10,negative,True,POL-MOT-UK-2025,top score 0.598 (cut 0.620),45
+semantic,large,none,hybrid,Q01,version_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,45
+semantic,large,none,hybrid,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,45
+semantic,large,none,hybrid,Q03,jurisdiction_trap,False,POL-MOT-EU-2026,wrong doc: POL-MOT-EU-2026,45
+semantic,large,none,hybrid,Q04,jurisdiction_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,45
+semantic,large,none,hybrid,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,45
+semantic,large,none,hybrid,Q06,historic,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,45
+semantic,large,none,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,45
+semantic,large,none,hybrid,Q08,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,45
+semantic,large,none,hybrid,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,45
+semantic,large,none,hybrid,Q10,negative,True,POL-MOT-UK-2025,top score 0.017 (cut 0.025),45
+semantic,large,jurisdiction,keyword,Q01,version_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,35
+semantic,large,jurisdiction,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,keyword,Q05,type_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,keyword,Q06,historic,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,35
+semantic,large,jurisdiction,keyword,Q08,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,35
+semantic,large,jurisdiction,keyword,Q10,negative,True,-,no candidates,35
+semantic,large,jurisdiction,vector,Q01,version_trap,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,35
+semantic,large,jurisdiction,vector,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,vector,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,vector,Q06,historic,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,35
+semantic,large,jurisdiction,vector,Q07,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",35
+semantic,large,jurisdiction,vector,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,35
+semantic,large,jurisdiction,vector,Q10,negative,True,POL-MOT-UK-2025,top score 0.598 (cut 0.620),35
+semantic,large,jurisdiction,vector,Q01,version_trap,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,35
+semantic,large,jurisdiction,vector,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,vector,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,vector,Q06,historic,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,35
+semantic,large,jurisdiction,vector,Q07,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",35
+semantic,large,jurisdiction,vector,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,35
+semantic,large,jurisdiction,vector,Q10,negative,True,POL-MOT-UK-2025,top score 0.598 (cut 0.620),35
+semantic,large,jurisdiction,vector,Q01,version_trap,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,35
+semantic,large,jurisdiction,vector,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,vector,Q04,jurisdiction_trap,False,-,nothing retrieved,5
+semantic,large,jurisdiction,vector,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,vector,Q06,historic,False,POL-REI-UK-2026,wrong doc: POL-REI-UK-2026,35
+semantic,large,jurisdiction,vector,Q07,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",35
+semantic,large,jurisdiction,vector,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,35
+semantic,large,jurisdiction,vector,Q10,negative,True,POL-MOT-UK-2025,top score 0.598 (cut 0.620),35
+semantic,large,jurisdiction,hybrid,Q01,version_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,hybrid,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,hybrid,Q06,historic,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,35
+semantic,large,jurisdiction,hybrid,Q08,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,35
+semantic,large,jurisdiction,hybrid,Q10,negative,True,POL-MOT-UK-2025,top score 0.017 (cut 0.025),35
+semantic,large,jurisdiction,hybrid,Q01,version_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,hybrid,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,hybrid,Q06,historic,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,35
+semantic,large,jurisdiction,hybrid,Q08,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,35
+semantic,large,jurisdiction,hybrid,Q10,negative,True,POL-MOT-UK-2025,top score 0.017 (cut 0.025),35
+semantic,large,jurisdiction,hybrid,Q01,version_trap,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q02,version_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,5
+semantic,large,jurisdiction,hybrid,Q05,type_trap,False,POL-MOT-UK-2025,wrong doc: POL-MOT-UK-2025,35
+semantic,large,jurisdiction,hybrid,Q06,historic,False,POL-PRP-UK-2026,wrong doc: POL-PRP-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,35
+semantic,large,jurisdiction,hybrid,Q08,paraphrase,False,PRC-CLM-UK-2026,wrong doc: PRC-CLM-UK-2026,35
+semantic,large,jurisdiction,hybrid,Q09,clause_lookup,False,POL-MOT-UK-2024,wrong doc: POL-MOT-UK-2024,35
+semantic,large,jurisdiction,hybrid,Q10,negative,True,POL-MOT-UK-2025,top score 0.017 (cut 0.025),35
 semantic,large,full,keyword,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,keyword,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,keyword,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
@@ -156,9 +106,9 @@ semantic,large,full,keyword,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
 semantic,large,full,keyword,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,keyword,Q06,historic,True,POL-MOT-UK-2025,ok,3
 semantic,large,full,keyword,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
-semantic,large,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-0)",3
+semantic,large,full,keyword,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-1)",3
 semantic,large,full,keyword,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
-semantic,large,full,keyword,Q10,negative,True,POL-MOT-UK-2026,top score 0.000 (cut 0.250),5
+semantic,large,full,keyword,Q10,negative,True,-,no candidates,5
 semantic,large,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
@@ -167,8 +117,48 @@ semantic,large,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,3
 semantic,large,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",3
-semantic,large,full,vector,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
-semantic,large,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.058 (cut 0.250),5
+semantic,large,full,vector,Q09,clause_lookup,False,POL-MOT-UK-2026,"right doc, wrong chunk (POL-MOT-UK-2026#s-2)",5
+semantic,large,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.593 (cut 0.620),5
+semantic,large,full,vector,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,vector,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,vector,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,vector,Q06,historic,True,POL-MOT-UK-2025,ok,3
+semantic,large,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",3
+semantic,large,full,vector,Q09,clause_lookup,False,POL-MOT-UK-2026,"right doc, wrong chunk (POL-MOT-UK-2026#s-2)",5
+semantic,large,full,vector,Q10,negative,True,POL-MOT-UK-2026,top score 0.593 (cut 0.620),5
+semantic,large,full,vector,Q01,version_trap,False,-,nothing retrieved,5
+semantic,large,full,vector,Q02,version_trap,False,-,nothing retrieved,5
+semantic,large,full,vector,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,vector,Q04,jurisdiction_trap,False,-,nothing retrieved,3
+semantic,large,full,vector,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,vector,Q06,historic,False,-,nothing retrieved,3
+semantic,large,full,vector,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,vector,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-2)",3
+semantic,large,full,vector,Q09,clause_lookup,False,POL-MOT-UK-2026,"right doc, wrong chunk (POL-MOT-UK-2026#s-2)",5
+semantic,large,full,vector,Q10,negative,True,-,no candidates,5
+semantic,large,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,3
+semantic,large,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-1)",3
+semantic,large,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.017 (cut 0.025),5
+semantic,large,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,hybrid,Q04,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
+semantic,large,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,3
+semantic,large,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-1)",3
+semantic,large,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
+semantic,large,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.017 (cut 0.025),5
 semantic,large,full,hybrid,Q01,version_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,hybrid,Q02,version_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,hybrid,Q03,jurisdiction_trap,True,POL-MOT-IE-2026,ok,3
@@ -177,5 +167,5 @@ semantic,large,full,hybrid,Q05,type_trap,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,hybrid,Q06,historic,True,POL-MOT-UK-2025,ok,3
 semantic,large,full,hybrid,Q07,paraphrase,True,POL-MOT-UK-2026,ok,5
 semantic,large,full,hybrid,Q08,paraphrase,False,POL-CON-UK-2026,"right doc, wrong chunk (POL-CON-UK-2026#s-0)",3
-semantic,large,full,hybrid,Q09,clause_lookup,True,POL-MOT-UK-2026,ok,5
-semantic,large,full,hybrid,Q10,negative,True,POL-MOT-UK-2026,top score 0.029 (cut 0.250),5
+semantic,large,full,hybrid,Q09,clause_lookup,False,POL-MOT-UK-2026,"right doc, wrong chunk (POL-MOT-UK-2026#s-2)",5
+semantic,large,full,hybrid,Q10,negative,True,-,no candidates,5
